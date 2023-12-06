@@ -10,14 +10,21 @@ LDFLAGS=$(LIBS)
 NAME=Codysee
 OBJS=$(SRCS:.c=.o)
 
-SRCS=           \
-	src/main.c \
-	src/game.c
+SRCS=                            \
+	src/main.c               \
+	src/game.c               \
+	src/data.c               \
+	src/widgets/button.c     \
+	src/widgets/label.c      
 
 
-HEADERS=               \
-	include/game.h \
-	include/macros.h
+HEADERS=                         \
+	include/game.h           \
+	include/data.h           \
+	include/macros.h         \
+	include/widgets.h        \
+	include/widgets/button.h \
+	include/widgets/label.h  
 
 $(NAME): $(OBJS)
 	@$(LD) -o $(NAME) $(OBJS) $(LDFLAGS)

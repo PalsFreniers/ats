@@ -3,6 +3,8 @@
 
 #include <stdbool.h>
 #include <raylib.h>
+#include <widgets.h>
+#include <data.h>
 
 struct Settings {
         bool fullscreen;
@@ -30,6 +32,7 @@ struct Game {
         struct Settings settings;
 };
 
+void Game_init(struct Game *game);
 void Game_event(struct Game *game);
 void Game_update(struct Game *game);
 void Game_draw(struct Game game);

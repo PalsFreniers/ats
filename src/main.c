@@ -22,6 +22,7 @@ struct Game game = {
 int main() {
         InitWindow(game.width, game.height, game.title);
         SetTargetFPS(game.fps);
+        Game_init(&game);
         while(game.open) {
                 Game_event(&game);
                 Game_update(&game);
