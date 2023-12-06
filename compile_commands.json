@@ -1,0 +1,14 @@
+[
+{
+	"directory": "/home/tidian/Documents/code/c/ats",
+	"arguments": ["gcc", "-o", "src/main.o", "-c", "src/main.c", "-Wall", "-Wextra", "-Iinclude"],
+	"file": "src/main.c",
+	"output": "src/main.o"
+},
+{
+	"directory": "/home/tidian/Documents/code/c/ats",
+	"arguments": ["gcc", "-o", "src/game.o", "-c", "src/game.c", "-Wall", "-Wextra", "-Iinclude"],
+	"file": "src/game.c",
+	"output": "src/game.o"
+}
+]

@@ -1,0 +1,13 @@
+Theme : Among the starts
+Library : raylib
+Name : Cosmic Odyssey: The Thought Within
+Synopsis : The player navigates a cosmic landscape that represents the depths of the human mind.
+           Each celestial body symbolizes different emotions, memories, or stages of personal growth.
+
+Logic : 
+
+Menu : 
+        - Button X : to suit the game
+        - Button Help : to get all of the controls
+        - Button Play : to start the game
+        - Button Settings : to go to the settings
